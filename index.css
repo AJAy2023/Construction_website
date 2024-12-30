@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    float: right;
+    margin: 20px;
+    
+}
+.container ul{
+    display: flex;
+    list-style: none;
+}
+.container ul li a{
+    margin: 20px;
+    text-decoration: none;
+    color:rgb(203, 174, 27);
+}
+
+
+.nav{
+    background:rgb(0,00,1);
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 1000;
+    
+}
+.nav p{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+}
+/* .scroll img{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+} */
+#ajay{
+    width: 100%;
+}
+.home{
+    position: absolute;
+    top: 10%;
+    height: 100vh;
+    width: 100%;
+    background-image: url(./background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.form h2{
+height: 60px;
+width: 400px;
+background-color: rgb(178, 125, 39);
+color: white;
+padding-top: 10px;
+text-align: center;
+font-size: 30px;
+border-radius: 5px;
+
+}
+.art {
+
+    width: 400px;
+    height: 380px;
+    background-color: rgb(167, 247, 208);
+}
+.home .form h1{
+    height: 60px;
+    width: 400px;
+    background-color: rgb(178, 125, 39);
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.home .form p{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 23px;
+}
+input{
+    height: 50px;
+    width: 370px;
+border:4px solid yellow;
+background-color: white;
+margin-left: 15px;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+.art button{
+    height: 40px;
+    width: 100px;
+    background-color: burlywood;
+    margin-left: 40%;
+    border-radius: 6px;
+}
+.clr{
+    background-color: azure;
+}
+.r1{
+    margin-top: 108vh;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+.image img{
+    width:500px;
+    height: 500px;
+    float: left;
+    margin-left: 20px;
+}
+.about{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+  
+}
+
+.rrr{
+    width: 170px;
+    height: 40px;
+    margin-top: 150px;
+    margin-left: 180px;
+    background-color: brown;
+    border-radius: 20px;
+
+}
+
+.price{
+    height: 100px;
+    width: 100%;
+  padding-left: 80px
+}
+.price h2{
+   font-size: 30px;
+}
+.price p{
+    font-size: 20px;
+    font-family:sans-serif
+}
+
+.f0{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 120px 0px 180px;
+    background-color: #f5f3f385;
+    color: black;
+}
+.f0:hover{
+    box-shadow: 2px 4px 8px 2px;
+}
+
+.f1 i{
+font-size:20px;
+height: 60px;
+width: 70px;
+background-color: rgb(230, 190, 15);
+border-radius: 30px 10px 30px 10px;
+padding-top: 10px;
+color: black;
+text-align: center;
+}
+ 
+.f1 h1 h3{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.dw h1{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 150px;
+    text-align: center;
+}
+.Gallery{
+    margin-top: 20px;
+    height: 100px;
+    width: 100%;
+    display:inline-block;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 110px;
+}
+.image1 img{
+    width: 300px;
+    height: 400px;
+    margin-left: 10px;
+}
+.Amenitie{
+    height: 1600px;
+    width: 100%;
+    background-color: bisque;
+}
+.xp h1 {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    text-align: center;
+    margin-top: 25px;
+}
+.xp h2{
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+.xp h2 span{
+    color:brown;
+}
+.child{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    margin-top: 35px;
+
+}
+.child p{
+    background-color: rgb(216, 193, 23);
+    height: 60px;
+    width: 350px;
+border-radius: 25px;
+padding-top: 20px;
+}
+.child p:hover{
+    background-color: white;
+    color:black;
+}
+.child1{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    margin-top: 35px;
+
+}
+.child1 p{
+    background-color: rgb(216, 193, 23);
+    height: 60px;
+    width: 350px;
+border-radius: 25px;
+padding-top: 20px;
+}
+.child1 p:hover{
+    background-color: white;
+    color:black;
+}
+.child2{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    margin-top: 35px;
+
+}
+.child2 p{
+    background-color: rgb(216, 193, 23);
+    height: 60px;
+    width: 350px;
+border-radius: 25px;
+padding-top: 20px;
+}
+.child2 p:hover{
+    background-color: white;
+    color:black;
+}
+.child3{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    margin-top: 35px;
+
+}
+.child3 p{
+    background-color: rgb(216, 193, 23);
+    height: 60px;
+    width: 350px;
+border-radius: 25px;
+padding-top: 20px;
+}
+.child3 p:hover{
+    background-color: white;
+    color:black;
+}
+.child4{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    margin-top: 35px;
+
+}
+.child4 p{
+    background-color: rgb(216, 193, 23);
+    height: 60px;
+    width: 350px;
+border-radius: 25px;
+padding-top: 20px;
+}
+.child4 p:hover{
+    background-color: white;
+    color:black;
+}
+.child5{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    margin-top: 35px;
+
+}
+.child5 p{
+    background-color: rgb(216, 193, 23);
+    height: 60px;
+    width: 350px;
+border-radius: 25px;
+padding-top: 20px;
+}
+.child5 p:hover{
+    background-color: white;
+    color:black;
+}
+.child6{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    margin-top: 35px;
+
+}
+.child6 p{
+    background-color: rgb(216, 193, 23);
+    height: 60px;
+    width: 350px;
+border-radius: 25px;
+padding-top: 20px;
+}
+.child6 p:hover{
+    background-color: white;
+    color:black;
+}
+.child7{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    margin-top: 35px;
+
+}
+.child7 p{
+    background-color: rgb(216, 193, 23);
+    height: 60px;
+    width: 350px;
+border-radius: 25px;
+padding-top: 20px;
+}
+.child7 p:hover{
+    background-color: white;
+    color:black;
+}
+.child8{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    margin-top: 35px;
+
+}
+.child8 p{
+    background-color: rgb(216, 193, 23);
+    height: 60px;
+    width: 350px;
+border-radius: 25px;
+padding-top: 20px;
+}
+.child8 p:hover{
+    background-color: white;
+    color:black;
+}
+.child9{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    margin-top: 35px;
+
+}
+.child9 p{
+    background-color: rgb(216, 193, 23);
+    height: 60px;
+    width: 350px;
+border-radius: 25px;
+padding-top: 20px;
+}
+.child9 p:hover{
+    background-color: white;
+    color:black;
+}
+.child10{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    margin-top: 35px;
+
+}
+.child10 p{
+    background-color: rgb(216, 193, 23);
+    height: 60px;
+    width: 350px;
+border-radius: 25px;
+padding-top: 20px;
+}
+.child10 p:hover{
+    background-color: white;
+    color:black;
+}
+.child11{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    margin-top: 35px;
+
+}
+.child11 p{
+    background-color: rgb(216, 193, 23);
+    height: 60px;
+    width: 350px;
+border-radius: 25px;
+padding-top: 20px;
+}
+.child11 p:hover{
+    background-color: white;
+    color:black;
+}
+.child12{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    margin-top: 35px;
+
+}
+.child12 p{
+    background-color: rgb(216, 193, 23);
+    height: 60px;
+    width: 350px;
+border-radius: 25px;
+padding-top: 20px;
+}
+.child12 p:hover{
+    background-color: white;
+    color:black;
+}
+.child13{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    margin-top: 35px;
+
+}
+.child13 p{
+    background-color: rgb(216, 193, 23);
+    height: 60px;
+    width: 350px;
+border-radius: 25px;
+padding-top: 20px;
+}
+.child13 p:hover{
+    background-color: white;
+    color:black;
+}
+.child14{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    margin-top: 35px;
+
+}
+.child14 p{
+    background-color: rgb(216, 193, 23);
+    height: 60px;
+    width: 350px;
+border-radius: 25px;
+padding-top: 20px;
+}
+.child14 p:hover{
+    background-color: white;
+    color:black;
+}
